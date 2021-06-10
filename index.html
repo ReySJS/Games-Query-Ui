@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Flow Games</title>
+
+    <link rel="shortcut icon" href="images/favicon-32x32.png" />
+    <link rel="stylesheet" href="styles/set-style.css" type="text/css" />
+    <link rel="stylesheet" href="styles/style.css" type="text/css" />
+    <link rel="stylesheet" href="styles/responsive.css" type="text/css" />
+    <link rel="stylesheet" href="styles/jquery-ui.min.css">
+    <link rel="stylesheet" href="styles/jquery-ui.structure.min.css">
+    <link rel="stylesheet" href="styles/jquery-ui.theme.min.css">
+
+    <!-- <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css"> -->
+
+    
+     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+    <meta name="robots" content="index, follow" />
+    <meta name="description" content="All about the best games" />
+    <meta name="keywords" content="games, game, rpg, moba, fps" />
+    <meta name="author" content="DrawLight Design" />
+
+    <meta property="og:title" content="Flow Games" />
+    <meta property="og:type" content="Games" />
+    <meta property="og:description" content="All about the best games" />
+    <!-- <meta property="og:url" content="" /> -->
+    <!-- <meta property="og:image" content=""> -->
+    <!-- <meta property="og:image:type" content="image/jpeg"> -->
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Flow Games" />
+    <meta name="twitter:description" content="All about the best games" />
+
+</head>
+
+<body>
+    <header>
+        <div class="sub-menu">
+            <div class="social">
+                <a href="#"><img src="images/twitter-icon.png" alt="Twitter Link"></a>
+                <a href="#"><img src="images/facebook-icon.png" alt="Facebook Link"></a>
+                <a href="#"><img src="images/vimeo-icon.png" alt="Vimeo Link"></a>
+                <a href="#"><img src="images/youtube-icon.png" alt="Youtube Link"></a>
+            </div>
+            <div class="user-field">
+                <div class="user-button">
+                    <a href="#">
+                        <img src="images/sign-icon.png" alt="Register Link" />
+                        <span>REGISTER</span>
+                    </a>
+                </div>
+                <span class="span-or">OR</span>
+                <div class="user-button">
+                    <a href="#">
+                        <img src="images/sign-icon.png" alt="Sign In Link" />
+                        <span>SIGN IN</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <nav class="menu">
+            <a href="#" id="logo"><img src="images/logo.svg" alt="logo" /></a>
+            <ul class="menu-list">
+                <li id="menu-home"><a href="#">HOME</a></li>
+                <li id="menu-games"><a href="#">PAGES</a></li>
+                <li id="menu-shop"><a href="#">SHOP</a></li>
+                <li id="menu-blog"><a href="#">BLOG</a></li>
+                <li id="menu-contact"><a href="#">CONTACTS</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="content">
+        <h1>The 5 best games in the world... for me</h1>
+
+        <div id="articles">
+            <div id="tabs">
+                <ul>
+                    <li> <a href="#tabs-0" id="tab-0" class="tab" value="0"></a> </li>
+                    <li> <a href="#tabs-1" id="tab-1" class="tab" value="1"></a> </li>
+                    <li> <a href="#tabs-2" id="tab-2" class="tab" value="2"></a> </li>
+                    <li> <a href="#tabs-3" id="tab-3" class="tab" value="3"></a> </li>
+                    <li> <a href="#tabs-4" id="tab-4" class="tab" value="4"></a> </li>
+                </ul>
+                <div id="tabs-0" class="tabs">
+                    <div id="player-0"></div>
+                    <div class="accordion">
+                        <h3>Description</h3>
+                        <div><p id="details-description-0"></p></div>
+                        <h3>Duration</h3>
+                        <div><p id="details-duration-0"></p></div>
+                        <h3>Developer(s)</h3>
+                        <div><p id="details-developer-0"></p></div>
+                        <h3>Publisher(s)</h3>
+                        <div><p id="details-publisher-0"></p></div>
+                    </div>
+                </div>
+                <div id="tabs-1" class="tabs">
+                    <div id="player-1"></div>
+                    <div class="accordion">
+                        <h3>Description</h3>
+                        <div><p id="details-description-1"></p></div>
+                        <h3>Duration</h3>
+                        <div><p id="details-duration-1"></p></div>
+                        <h3>Developer(s)</h3>
+                        <div><p id="details-developer-1"></p></div>
+                        <h3>Publisher(s)</h3>
+                        <div><p id="details-publisher-1"></p></div>
+                    </div>
+                </div>
+                <div id="tabs-2" class="tabs">
+                    <div id="player-2"></div>
+                    <div class="accordion">
+                        <h3>Description</h3>
+                        <div><p id="details-description-2"></p></div>
+                        <h3>Duration</h3>
+                        <div><p id="details-duration-2"></p></div>
+                        <h3>Developer(s)</h3>
+                        <div><p id="details-developer-2"></p></div>
+                        <h3>Publisher(s)</h3>
+                        <div><p id="details-publisher-2"></p></div>
+                    </div>
+                </div>
+                <div id="tabs-3" class="tabs">
+                    <div id="player-3"></div>
+                    <div class="accordion">
+                        <h3>Description</h3>
+                        <div><p id="details-description-3"></p></div>
+                        <h3>Duration</h3>
+                        <div><p id="details-duration-3"></p></div>
+                        <h3>Developer(s)</h3>
+                        <div><p id="details-developer-3"></p></div>
+                        <h3>Publisher(s)</h3>
+                        <div><p id="details-publisher-3"></p></div>
+                    </div>
+                </div>
+                <div id="tabs-4" class="tabs">
+                    <div id="player-4"></div>
+                    <div class="accordion">
+                        <h3>Description</h3>
+                        <div><p id="details-description-4"></p></div>
+                        <h3>Duration</h3>
+                        <div><p id="details-duration-4"></p></div>
+                        <h3>Developer(s)</h3>
+                        <div><p id="details-developer-4"></p></div>
+                        <h3>Publisher(s)</h3>
+                        <div><p id="details-publisher-4"></p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <span class="copyright">&copy; 2021 DrawLight</span>
+</body>
+<script src="scripts/script.js" type="text/javascript"></script>
+
+</html>
